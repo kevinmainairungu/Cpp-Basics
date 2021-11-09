@@ -17,4 +17,14 @@ int main()
 
 }
 
-//create a program that asks the user for their name and then prints out a greeting message.
+//create a constuctor that takes in a string and prints it out
+
+class Person
+{
+public:
+    Person(std::string name)
+    {
+        std::cout << "Hello " << name << "!" << std::endl;
+    }
+};
+
