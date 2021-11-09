@@ -4,17 +4,15 @@
 #include <iostream>
 #include <string>
 
-
 int main()
 {
     std::string name;
     std::cout << "What is your name? ";
     std::cin >> name;
-    std:: string secondName = "enter second name\n";
+    std::string secondName = "enter second name\n";
     std::cin >> secondName;
     std::cout << "=Hello " << name << " " << secondName << "!" << std::endl;
     return 0;
-
 }
 
 //create a constuctor that takes in a string and prints it out
@@ -27,4 +25,3 @@ public:
         std::cout << "Hello " << name << "!" << std::endl;
     }
 };
-
